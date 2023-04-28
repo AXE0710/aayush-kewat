@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Permanent+Marker&display=swap');
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 2px;
+    
+
+}
+nav{
+    width: 100%;
+    /* background-color: black; */
+    opacity: 70%;
+    height: 25px;
+    margin-top: 0%;
+    /* -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1); */
+
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.back-button{
+    /* background-color: blue; */
+    border-radius: 3px;
+    border: 2px;
+    border-color: red;
+    text-shadow: 2px;
+    font-size: larger;
+    font-style: oblique;
+    padding: 4px;
+    color: antiquewhite;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 0 0 3px #FF0000;
+    
+}
+
+span::after{
+    content: "";
+    animation: back 2s infinite;
+}
+
+span:hover{
+    text-shadow: 0 0 3px rgb(0, 0, 255);
+}
+
+@keyframes back {
+    0% {content: "<<<<<<";}
+    20% {content: "<<<<<";}
+    40% {content: "<<<<";}
+    60% {content: "<<<";}
+    80% {content: "<<";}
+    100% {content: "<";}
+}
+/* .contain{
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+} */
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
+.links-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 50%;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    opacity: 70%;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    box-shadow: 0 0 10px red;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 20%;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    opacity: 70%;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 5px;
+    box-shadow: 0 0 10px red;
+}
+.links:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 255);
+}
+.links-contain:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 255);
+}
+.links a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.links-contain a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.links a:hover{
+    text-shadow: 0 0 3px rgb(0, 0, 255);
+}
+.links-contain a:hover{
+    text-shadow: 0 0 3px rgb(0, 0, 255);
+}
+.links-contain span{
+    font-size: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 0 0 3px #FF0000;
+}
+.links span{
+    font-size: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 0 0 3px #FF0000;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+}
+.contain-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    /* background-color: rgb(0, 0, 0); */
+    height: 100%;
+    width: 50%;
+    /* font-family: 'Bruno Ace SC', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-size: 30px; */
+    /* opacity: 70%; */
+    color: aliceblue;
+    /* text-shadow: 0 0 3px #FF0000; */
+    /* border-radius: 10px; */
+    /* border: 2px solid red; */
+    padding: 10px;
+    /* box-shadow: 0 0 10px red; */
+    gap: 10px;
+}
+.icons:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 255);
+}
